@@ -44,12 +44,6 @@ var_hello_len_count = int(len(var_hello))
 print(var_hello_len_count)
 var_hello_rev = ""
 print(var_hello)
-# print(var_hello[len(var_hello) -1])
-#var_hello_len_count = var_hello_len_count -1
-#var_hello_rev = var_hello_rev + var_hello[var_hello_len_count]
-#print(var_hello_rev)
-#var_hello_len_count = var_hello_len_count -1
-#var_hello_rev = var_hello_rev + var_hello[var_hello_len_count]
 print(var_hello_rev)
 while (var_hello_len_count > 0):
     var_hello_len_count = var_hello_len_count - 1
